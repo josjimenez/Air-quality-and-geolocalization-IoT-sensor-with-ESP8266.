@@ -4,13 +4,13 @@
 #include "WifiLocation.h"
 
 #define DHTTYPE DHT11     // DHT 11
-#define GOOGLE_KEY "AIzaSyAZJxnr14cLMIOwbxGUsLMljvKR0Kghr3A" // API Google Geolocation Key
+#define GOOGLE_KEY "your_API_key" // API Google Geolocation Key
 #define LOC_PRECISION 7 // Latitude and longitude precision
        
 
 // Change the credentials below, so your ESP8266 connects to your router
-const char* ssid = "Galaxy A51DFBF";
-const char* password = "fsxt5176";
+const char* ssid = "your_ssid";
+const char* password = "your_password";
 
 // Change the variable to your MQTT Broker, so it connects to it
 const char* mqttServer = "iot.fr-par.scw.cloud";
