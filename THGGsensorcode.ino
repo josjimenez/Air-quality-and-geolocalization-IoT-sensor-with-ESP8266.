@@ -13,9 +13,9 @@ const char* ssid = "your_ssid";
 const char* password = "your_password";
 
 // Change the variable to your MQTT Broker, so it connects to it
-const char* mqttServer = "iot.fr-par.scw.cloud";
-const int mqttPort = 1883;
-const char* mqttUser = "b92a3283-28fe-4572-a385-9c680344315e";
+const char* mqttServer = "your_server";
+const int mqttPort = "your_port";
+const char* mqttUser = "user";
 const char* mqttPassword = "";
 
 // Initializes the espClient. You should change the espClient name if you have multiple ESPs running in your home automation system
